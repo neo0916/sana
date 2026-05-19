@@ -136,7 +136,8 @@ body {
    4. 內容框架
    ========================================== */
 .content-wrapper {
-    padding-top: 100px;
+    padding-top: 40px;
+    /* 縮小上方間距，因為有了 hero 區塊 */
 }
 
 .section-title-box {
@@ -152,8 +153,8 @@ body {
 
 /* 🎯 強力修正：讓第一幕的標題與副標題完美置中 */
 #hero {
-    min-height: calc(100vh - 100px);
-    /* 扣除導覽列高度後，佔滿整個螢幕 */
+    min-height: 75vh;
+    /* 讓它佔據螢幕高度的 75%，大氣磅礡 */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -161,21 +162,23 @@ body {
     justify-content: center;
     /* 垂直居中 */
     text-align: center;
-    /* 文字靠中對齊 */
-    padding: 20px;
+    /* 文字靠中 */
+    padding: 0 20px;
+    width: 100%;
 }
 
 #hero-title {
-    font-size: 4rem;
+    font-size: 3.5rem;
+    /* 放大標題，更有視覺衝擊力 */
     margin-top: 0;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     font-weight: 600;
 }
 
 #hero-subtitle {
-    font-size: 1.3rem;
+    font-size: 1.25rem;
     margin-top: 0;
-    margin-bottom: 40px;
+    margin-bottom: 0;
     opacity: 0.8;
 }
 
