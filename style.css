@@ -150,6 +150,35 @@ body {
     margin-bottom: 15px;
 }
 
+/* 🎯 強力修正：讓第一幕的標題與副標題完美置中 */
+#hero {
+    min-height: calc(100vh - 100px);
+    /* 扣除導覽列高度後，佔滿整個螢幕 */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 水平居中 */
+    justify-content: center;
+    /* 垂直居中 */
+    text-align: center;
+    /* 文字靠中對齊 */
+    padding: 20px;
+}
+
+#hero-title {
+    font-size: 4rem;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+#hero-subtitle {
+    font-size: 1.3rem;
+    margin-top: 0;
+    margin-bottom: 40px;
+    opacity: 0.8;
+}
+
 /* ==========================================
    5. 時光隧道 (Timeline)
    ========================================== */
