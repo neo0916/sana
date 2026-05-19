@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh-HK">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sana's Journey - 一生無憾的時光史詩</title>
+
+    <!-- 引入字型 -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:ital,wght@0,400;0,600;1,400&display=swap"
+        rel="stylesheet">
+
+    <!-- 🔗 核心連線 1：引入外部裝潢 CSS 檔案 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- 🌐 神級固定式導覽列 -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <!-- 左側 Logo -->
+            <div class="nav-logo">SANA</div>
+
+            <!-- 中央主要分類 (永遠固定、直覺好用) -->
+            <ul class="nav-links">
+                <li><a href="#timeline" class="active">時光隧道</a></li>
+                <li><a href="#profile">個人檔案</a></li>
+                <li><a href="#photos">無盡相庫</a></li>
+                <li><a href="#videos">影音紀錄</a></li>
+                <li><a href="#letter">給Sana的信</a></li>
+            </ul>
+
+            <!-- 右側模式切換按鈕 -->
+            <button class="theme-btn-nav" onclick="switchTheme()">Switch Mode</button>
+        </div>
+    </nav>
+
+    <!-- 🎬 網頁主內容區 (加上大量的內容讓網頁可以向下滾動，測試導覽列的固定效果) -->
+    <main class="content-wrapper">
+        <section id="hero" class="section">
+            <h1 id="hero-title">No Sana, No Life.</h1>
+            <p id="hero-subtitle">因為妳的笑容，世界才有了春天。</p>
+        </section>
+
+        <!-- ⏳ 第二幕：時光隧道 -->
+        <section id="timeline" class="timeline-section">
+            <div class="timeline-container">
+        
+                <!-- 核心時間軸中心線 -->
+                <div class="timeline-line"></div>
+        
+                <!-- 節點 1：起點 (1996) -->
+                <div class="timeline-item left">
+                    <div class="timeline-date">1996.12.29</div>
+                    <div class="timeline-content">
+                        <h3>大阪的晨曦：湊崎紗夏誕生</h3>
+                        <p>那一天，大阪多了一個笑眼彎彎的女孩。在父母全心全意的愛護下成長，從小就展現出對舞台的憧憬與獨特的開朗能量。</p>
+                        <span class="timeline-tag">#Osaka #TheBeginning</span>
+                    </div>
+                </div>
+        
+                <!-- 節點 2：跨越海洋的勇氣 (2012) -->
+                <div class="timeline-item right">
+                    <div class="timeline-date">2012.04.13</div>
+                    <div class="timeline-content">
+                        <h3>十四歲的抉擇：前往韓國</h3>
+                        <p>因為中學時在街頭被 JYP 星探發掘，雖然語言不通、前途未知，她卻堅定地對父母說：「要是現在放棄，就到此為止了。」毅然跨越海洋開啟艱苦的練習生生涯。</p>
+                        <span class="timeline-tag">#Courage #TraineeLife</span>
+                    </div>
+                </div>
+        
+                <!-- 節點 3：逆光蛻變 (2015) -->
+                <div class="timeline-item left">
+                    <div class="timeline-date">2015.05.05</div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2015.05.05</div>
+                        <h3>《SIXTEEN》的淚水與手作春捲</h3>
+                    
+                        <!-- 🖼️ 填入一張 Sana 的相片 -->
+                        <div class="timeline-img-wrapper">
+                            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=600"
+                                alt="Sana SIXTEEN Era">
+                            <!-- 💡 註：這裡我先用一張高品質的免費人物圖替代，未來你可以直接換成 Sana 的高解析度照片網址！ -->
+                        </div>
+                    
+                        <p>在殘酷的生存節目中，面對身邊夥伴的離去，她將淚水化為堅韌。在考驗明星特質的舞台上，她出人意料地現場製作「越南春捲」，用無可取代的古靈精怪征服了朴軫永與全世界的心。同年10月20日，正式作為 TWICE 成員出道。</p>
+                        <span class="timeline-tag">#SIXTEEN #TWICE_Debuts</span>
+                    </div>
+                </div>
+        
+            </div>
+        </section>
+
+        <!-- 💎 第二幕：個人檔案與成員羈絆 -->
+        <section id="profile" class="profile-section">
+            <div class="section-title-box">
+                <h2>THE BOND</h2>
+                <p>「一個人可以走得很快，但九個人可以走得很遠。」— 那些生命中不可或缺的成員們</p>
+            </div>
+        
+            <div class="bond-grid">
+                <!-- 核心主角卡：SANA -->
+                <div class="bond-card sana-main">
+                    <div class="bond-avatar">S</div>
+                    <h3>湊崎紗夏 SANA</h3>
+                    <p class="mbti-tag">MBTI: ENFP ➔ ENFJ</p>
+                    <p>隊內的「快樂病毒」，用無盡的愛與身體接觸包容著所有人。</p>
+                </div>
+        
+                <!-- 羈絆成員 1：MOMO (紗毛/SaMo 靈魂雙胞胎) -->
+                <div class="bond-card member">
+                    <div class="bond-avatar">M</div>
+                    <h3>MOMO 🔑 靈魂雙生</h3>
+                    <p>從大阪到韓國，從同一個練習室到同一個出道舞台，她們是用同一種呼吸長大的親姐妹。</p>
+                </div>
+        
+                <!-- 羈絆成員 2：TZUYU (紗瑜/SaTzu 溺愛組合) -->
+                <div class="bond-card member">
+                    <div class="bond-avatar">T</div>
+                    <h3>TZUYU 🔑 溺愛之絆</h3>
+                    <p>對忙內子瑜毫不掩飾的偏愛，在每一次迷茫時給予彼此最堅實的擁抱與溫暖。</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 🖼️ 第三幕：無盡相庫 -->
+        <section id="photos" class="photos-section">
+            <div class="section-title-box">
+                <h2>VISUAL ARCHIVE</h2>
+                <p>捕捉每一個動人心魄的瞬間 —— 湊崎紗夏的視覺史詩</p>
+            </div>
+        
+            <!-- 🎛️ 固定/置頂於相片區上方的「動態過濾器」 (Filter Bar) -->
+            <div class="filter-bar">
+                <button class="filter-btn active" onclick="filterPhotos('all')">全部 ALL</button>
+                <button class="filter-btn" onclick="filterPhotos('stage')">打歌舞台 STAGE</button>
+                <button class="filter-btn" onclick="filterPhotos('fashion')">時尚代言 FASHION</button>
+                <button class="filter-btn" onclick="filterPhotos('daily')">日常私服 DAILY</button>
+            </div>
+        
+            <!-- 🧱 頂級不對稱瀑布流相片容器 -->
+            <div class="photo-gallery">
+            
+                <!-- 照片 1：時尚 (極致大直幅 —— 模擬 Prada 黑色長洋裝全身照) -->
+                <div class="gallery-item fashion">
+                    <img src="https://images.unsplash.com/photo-1509631179647-0177331693ae?auto=format&fit=crop&q=80&w=600&h=950"
+                        alt="Sana Fashion">
+                    <div class="img-overlay"><span>PRADA AMBASSADOR</span></div>
+                </div>
+            
+                <!-- 照片 2：舞台 (標準橫幅 —— 模擬橫向的打歌舞台現場) -->
+                <div class="gallery-item stage">
+                    <img src="https://images.unsplash.com/photo-1516450360452-9312f5e86fc7?auto=format&fit=crop&q=80&w=600&h=400"
+                        alt="Sana Stage">
+                    <div class="img-overlay"><span>CHEER UP ERA</span></div>
+                </div>
+            
+                <!-- 照片 3：日常 (微長直幅 —— 模擬日常街拍自拍) -->
+                <div class="gallery-item daily">
+                    <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=600&h=750"
+                        alt="Sana Daily">
+                    <div class="img-overlay"><span>OFF-STAGE SMILE</span></div>
+                </div>
+            
+                <!-- 照片 4：時尚 (正方形 —— 模擬雜誌封面近照) -->
+                <div class="gallery-item fashion">
+                    <img src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?auto=format&fit=crop&q=80&w=600&h=600"
+                        alt="Sana Fashion 2">
+                    <div class="img-overlay"><span>MILAN FASHION WEEK</span></div>
+                </div>
+            
+                <!-- 照片 5：舞台 (極長直幅 —— 模擬神級單人舞台直拍) -->
+                <div class="gallery-item stage">
+                    <img src="https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&q=80&w=600&h=900"
+                        alt="Sana Stage 2">
+                    <div class="img-overlay"><span>MISAMO STAGE</span></div>
+                </div>
+            
+            </div>
+        </section>
+
+        <!-- 🎬 第四幕：動態影音紀錄 -->
+        <section id="videos" class="videos-section">
+            <div class="section-title-box">
+                <h2>MOTION RECORDS</h2>
+                <p>視聽的史詩 —— 紀錄舞台上與鏡頭前，那道最耀眼的光芒</p>
+            </div>
+        
+            <!-- 📺 Netflix 風格影音網格 -->
+            <div class="video-grid">
+        
+                <!-- 影片 1：傳奇直拍 (Legendary Fancam) -->
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <!-- 這裡嵌入 YouTube SANA 經典打歌直拍 (以官方釋出影片為基礎) -->
+                        <iframe src="https://www.youtube.com/embed/n4L0gY1k5S0" title="SANA Fancam" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <span class="video-tag">#LEGENDARY #FANCAM</span>
+                        <h3>LIKEY — 經典傳奇直拍</h3>
+                        <p>那一年席捲全網的標誌性雙馬尾與致命的心動笑容，被無數 ONCE 奉為必看的傳世神作。</p>
+                    </div>
+                </div>
+        
+                <!-- 影片 2：高端時尚舞台 (MISAMO / Prada) -->
+                <div class="video-card">
+                    <div class="video-wrapper">
+                        <!-- 這裡嵌入另一個高奢感舞台影片 -->
+                        <iframe src="https://www.youtube.com/embed/fD_j79K_6zM" title="MISAMO SANA" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </div>
+                    <div class="video-info">
+                        <span class="video-tag">#MISAMO #LUXURY</span>
+                        <h3>MISAMO 'Do Not Touch' — 藝術繆思</h3>
+                        <p>展現極致的自律與高貴。優雅的長裙與清冷的眼神，完美詮釋了何謂「只能遠觀的當代藝術品」。</p>
+                    </div>
+                </div>
+        
+            </div>
+        </section>
+
+        <!-- 💌 第五幕：給 Sana 的一封信 -->
+        <section id="letter" class="letter-section">
+            <div class="letter-container">
+        
+                <!-- 核心感人標題 -->
+                <div class="section-title-box">
+                    <h2>DEAR SANA</h2>
+                    <p>在這裡，寫下妳與她的時光故事。每一句真心話，都是編織她璀璨星途的一縷光。</p>
+                </div>
+        
+                <!-- ✉️ 互動情書輸入信封 -->
+                <div class="letter-envelope">
+                    <h3>寫一封情書給 Sana</h3>
+                    <div class="input-group">
+                        <input type="text" id="signer-name" placeholder="妳的名字 / ONCE 暱稱" required>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="letter-content" rows="5" placeholder="寫下想對 Sana 說的話...（例如：謝謝妳成為我們的力量，No Sana No Life...）"
+                            required></textarea>
+                    </div>
+                    <button class="send-letter-btn" onclick="submitLetter()">封入信封 ➔ Send</button>
+                </div>
+        
+                <!-- 📜 動態應援牆（使用者送出留言後，會由 JavaScript 自動生成卡片塞進這裡） -->
+                <div class="letters-wall" id="letters-wall">
+        
+                    <!-- 預設第一封感人情書案例 -->
+                    <div class="posted-letter-card">
+                        <p class="posted-text">「謝謝妳在十四歲那年沒有放棄。生疏的韓文、SIXTEEN 的淚水，妳都用笑容撐過來了。謝謝妳成為 TWICE 的
+                            SANA，妳出現在我的生命裡，是我一生最大的幸運。」</p>
+                        <div class="posted-meta">
+                            <span class="posted-author">— 一生推的 ONCE</span>
+                            <span class="posted-date">2026.05.19</span>
+                        </div>
+                    </div>
+        
+                </div>
+        
+            </div>
+        </section>
+    </main>
+
+    <!-- 🔗 引入外部機關 JS 檔案 -->
+    <script src="script.js"></script>
+</body>
+
+</html>
